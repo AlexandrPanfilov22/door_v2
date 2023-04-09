@@ -1,0 +1,247 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  z-index: 1;
+  background: #222021;
+}
+
+.line {
+  border: 1px solid #E0E0E0;
+}
+
+.main-page {
+  padding-top: 30px;
+  padding-bottom: 100px;
+  background-size: cover;
+  background-image: url("../images/fon-3.jpg");
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+
+header {
+  margin-bottom: 100px;
+}
+header .navbar-brand {
+  color: white;
+}
+header .navbar-nav .nav-item {
+  color: white;
+}
+header .navbar-nav .nav-link {
+  color: white;
+}
+
+.background {
+  background-color: #222021;
+  background-position: center;
+  border-radius: 43px;
+  z-index: 3;
+}
+.background .title {
+  font-weight: 500;
+  font-size: 40px;
+  color: white;
+}
+.background .description {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+}
+.background img {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  width: 150px;
+  height: 120px;
+}
+
+.our-features {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.our-features .title {
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 36px;
+  color: white;
+}
+.our-features img {
+  border-radius: 40px;
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+.our-features .card-text {
+  text-align: center;
+  color: white;
+  font-size: 16px;
+}
+
+.services {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #E0E0E0;
+}
+.services .services-back {
+  background-color: #333;
+  border-radius: 40px;
+}
+.services .title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 22px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.services .description {
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+}
+.services .icon-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #E0E0E0;
+}
+.services .icon-container .outer-border {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 110px;
+  height: 110px;
+  padding: 10px;
+  border: 1px solid #E0E0E0;
+  border-radius: 50%;
+  z-index: 1;
+}
+.services .icon-container .outer-border .inner-border {
+  padding: 25px;
+  background-color: #E0E0E0;
+  width: 90px;
+  height: 90px;
+  border: 1px solid #E0E0E0;
+  border-radius: 50%;
+  z-index: 1;
+}
+.services .icon-container .door {
+  width: 40px;
+  height: 40px;
+  background: url("../icons/open-exit-door.png");
+  z-index: 2;
+}
+.services .icon-container .remont {
+  width: 40px;
+  height: 40px;
+  background: url("../icons/service.png");
+}
+.services .icon-container .lock {
+  width: 40px;
+  height: 40px;
+  background: url("../icons/lock.png");
+}
+.services .icon-container .shield {
+  width: 40px;
+  height: 40px;
+  background: url("../icons/shield.png");
+}
+.services .icon-container .title-card {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+.services .icon-container .description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #999999;
+}
+
+.our-works {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.our-works .title {
+  color: #E0E0E0;
+  margin-bottom: 60px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 22px;
+}
+.our-works .carousel {
+  width: 900px;
+  text-align: center;
+  margin: auto;
+}
+.our-works .carousel .carousel-inner {
+  width: 900px;
+  border-radius: 40px;
+}
+.advantages {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.advantages .advantages-title {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #E0E0E0;
+}
+.advantages .outer-border {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 110px;
+  height: 110px;
+  padding: 10px;
+  border-radius: 50%;
+  background: #E0E0E0;
+}
+.advantages .outer-border .shield {
+  width: 60px;
+  height: 60px;
+}
+.advantages .title {
+  text-align: center;
+  font-size: 18px;
+  color: #E0E0E0;
+}
+.advantages .description {
+  text-align: center;
+  color: #E0E0E0;
+}
+
+.about-us {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.about-us .title {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #E0E0E0;
+}
+.about-us .description {
+  color: #E0E0E0;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+}
+.about-us img {
+  margin-left: 20px;
+  border-radius: 40px;
+  width: 300px;
+  height: 300px;
+}
+
+/*# sourceMappingURL=main.css.map */

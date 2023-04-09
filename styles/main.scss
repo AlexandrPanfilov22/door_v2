@@ -1,0 +1,322 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+$white: #FFFFFF;
+$black: #000000;
+$dark: #323232;
+$gray: #999999;
+$blue: #4985FF;
+$light-gray: #F6F6F8;
+$shadow-gray: rgba(111, 111, 111, 0.25);
+
+body {
+  z-index: 1;
+  background: #222021;
+}
+
+.line {
+  border: 1px solid #E0E0E0;
+}
+
+.main-page {
+  padding-top: 30px;
+  padding-bottom: 100px;
+  background-size: cover;
+  background-image: url("../images/fon-3.jpg");
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+
+header {
+  margin-bottom: 100px;
+
+  .navbar-brand {
+    color: white;
+  }
+
+  .navbar-nav {
+    .nav-item {
+      color: white;
+    }
+
+    .nav-link {
+      color: white;
+    }
+  }
+}
+
+.background {
+  //width: 1000px;
+
+  background-color: #222021;
+  background-position: center;
+  border-radius: 43px;
+  z-index: 3;
+
+  .title {
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+  }
+
+  .description {
+    display: inline-block;
+
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+  }
+
+  img {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 120px;
+  }
+}
+
+.our-features {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  //background-size: cover;
+  //background-image: url("../images/fon-3.jpg");
+  //background-repeat: no-repeat;
+
+
+  .title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 36px;
+    color: white;
+  }
+
+  img {
+    border-radius: 40px;
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+
+  .card-text {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+  }
+}
+
+.services {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #E0E0E0;
+
+  //background-size: cover;
+  //background-image: url("../images/fon-3.jpg");
+  //background-repeat: no-repeat;
+
+  .services-back {
+    background-color: #333;
+    border-radius: 40px;
+  }
+
+  .title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .description {
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #E0E0E0;
+
+    .outer-border {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      margin-bottom: 10px;
+
+      width: 110px;
+      height: 110px;
+      padding: 10px;
+      border: 1px solid #E0E0E0;
+      border-radius: 50%;
+      z-index: 1;
+
+      .inner-border {
+        padding: 25px;
+        background-color: #E0E0E0;
+
+        width: 90px;
+        height: 90px;
+        border: 1px solid #E0E0E0;
+        border-radius: 50%;
+        z-index: 1;
+      }
+    }
+
+    .door {
+      width: 40px;
+      height: 40px;
+      background: url("../icons/open-exit-door.png");
+      z-index: 2;
+    }
+
+    .remont {
+      width: 40px;
+      height: 40px;
+      background: url("../icons/service.png");
+    }
+
+    .lock {
+      width: 40px;
+      height: 40px;
+      background: url("../icons/lock.png");
+    }
+
+    .shield {
+      width: 40px;
+      height: 40px;
+      background: url("../icons/shield.png");
+    }
+
+    .title-card {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px;
+    }
+
+    .description {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 22px;
+      color: $gray;
+    }
+  }
+}
+
+.our-works {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+
+  //background-size: cover;
+  //background-image: url("../images/fon-3.jpg");
+  //background-repeat: no-repeat;
+
+
+  .title {
+    color: #E0E0E0;
+    margin-bottom: 60px;
+
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 22px;
+  }
+
+  .carousel {
+    width: 900px;
+    text-align: center;
+    margin: auto;
+
+    .carousel-inner {
+      width: 900px;
+      border-radius: 40px;
+
+      .carousel-item {
+      }
+    }
+  }
+}
+
+.advantages {
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  //background-size: cover;
+  //background-image: url("../images/fon-3.jpg");
+  //background-repeat: no-repeat;
+
+  .advantages-title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #E0E0E0;
+  }
+
+  .outer-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 20px;
+
+    width: 110px;
+    height: 110px;
+    padding: 10px;
+    border-radius: 50%;
+    background: #E0E0E0;
+
+    .shield {
+      width: 60px;
+      height: 60px;
+    }
+  }
+
+  .title {
+    text-align: center;
+    font-size: 18px;
+    color: #E0E0E0;
+  }
+
+  .description {
+    text-align: center;
+    color: #E0E0E0;
+  }
+}
+
+.about-us {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  //background-size: cover;
+  //background-image: url("../images/fon-3.jpg");
+  //background-repeat: no-repeat;
+
+  .title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #E0E0E0;
+  }
+
+  .description {
+    color: #E0E0E0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  img {
+    margin-left: 20px;
+    border-radius: 40px;
+    width: 300px;
+    height: 300px;
+  }
+}
