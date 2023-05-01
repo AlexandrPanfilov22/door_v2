@@ -187,12 +187,10 @@ header .navbar-nav .nav-link {
   line-height: 22px;
 }
 .our-works .carousel {
-  width: 900px;
   text-align: center;
   margin: auto;
 }
 .our-works .carousel .carousel-inner {
-  width: 900px;
   border-radius: 40px;
 }
 .advantages {
@@ -252,6 +250,11 @@ header .navbar-nav .nav-link {
   border-radius: 40px;
   width: 300px;
   height: 300px;
+}
+.about-us .img-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .contacts {
@@ -402,6 +405,107 @@ header .navbar-nav .nav-link {
   }
   100% {
     background-positon-x: 0px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .background {
+    background-color: #222021;
+    background-position: center;
+    border-radius: 43px;
+    z-index: 3;
+  }
+  .background .title {
+    font-weight: 600;
+    font-size: 26px;
+    color: white;
+    margin-bottom: 30px;
+  }
+  .background .description {
+    display: inline-block;
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+  }
+  .background img {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+  }
+  .our-features {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .our-features .title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 26px;
+    color: white;
+  }
+  .our-features .description {
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+  }
+  .our-features img {
+    border-radius: 40px;
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+  .our-features .card-text {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .about-us {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .about-us .title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #E0E0E0;
+  }
+  .about-us .description {
+    color: #E0E0E0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .about-us img {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 40px;
+    width: 200px;
+    height: 200px;
+  }
+  .about-us .img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contacts {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+  .contacts .title {
+    font-weight: 500;
+    font-size: 26px;
+  }
+  .contacts .send-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  iframe {
+    width: 250px;
   }
 }
 
