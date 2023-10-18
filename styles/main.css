@@ -508,5 +508,8 @@ header .navbar-nav .nav-link {
     width: 250px;
   }
 }
+a {
+  color: #E0E0E0;
+}
 
 /*# sourceMappingURL=main.css.map */
